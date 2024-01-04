@@ -2,6 +2,9 @@ package com.springcore;
 
 public class Student {
 	private int roll;
+	private String name;
+	private int gradeName;
+	
 	public int getRoll() {
 		return roll;
 	}
@@ -20,8 +23,7 @@ public class Student {
 	public void setGradeName(int gradeName) {
 		this.gradeName = gradeName;
 	}
-	private String name;
-	private int gradeName;
+	
 	@Override
 	public String toString() {
 		return "Student [roll=" + roll + ", name=" + name + ", gradeName=" + gradeName + "]";

@@ -14,6 +14,10 @@
   	<property name="name">
   		<value>shahu</value>
   	</property>
+  	
+  	<property name="gradeName">
+  		<value>25</value>
+  	</property>
   
   </bean>
 
